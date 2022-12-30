@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Codificador Alura</title>
+</head>
+<body">
+<script src="./action/accion.js"></script>
+
+    <header>
+        <img src="img\logo.png" alt="logo">
+    </header>
+    <div id = "contenedor">
+        <section id="principal">
+            <form action="">
+                <div>
+                    <textarea name="txtEntrada" id="text" cols="30" rows="10" placeholder="Ingrese el texto aqui" autofocus></textarea>
+                </div>
+                <div>
+                    <img src="img\Vector.png" alt="admiración" id="imgVector">
+                    <span> Solo letras minúsculas y sin acento</span>
+                    <div>
+                        <button id ="btnActivo" onclick="mensaje()">Encriptar</button>
+                        <button id ="btnDesactivado" onclick="desencriptar()">Desencriptar</button>
+                    </div>
+                </div>
+            </form>
+        </section>
+        <section id = "sidebar">
+            <div>
+                <img src="img\Muñeco.png" alt="Avatar" id="muneco">
+                <h2 id ="noEncontrado">Ningún mensaje fue encontrado</h2>
+                <p id ="msgEncriptar">Ingresa el texto que desees encriptar o desencriptar.</p>
+                <textarea name="txtSalida" id="textSalida" cols="18" rows="10" style="display:none"></textarea>
+                <button id="btnCopiar" style="display:none" onclick="copiar()">Copiar</button>
+                
+            </div>
+            </section>
+        </div>
+    </div>    
+</body>
+</html>

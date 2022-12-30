@@ -1,0 +1,134 @@
+#contenedor {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#principal {
+  width: 70%;
+}
+#sidebar {
+  /*width: 30%;*/
+  background-color: white;
+  border-radius: 2%;
+  display: flex;
+  justify-content: center;
+  /*word-break:break-all;*/
+}
+
+#text {
+  color: #0a3871;
+  font-family: "Inter";
+  font-size: 32px;
+  width: 90%;
+  border-style: none;
+  margin: 2px;
+}
+#text::placeholder {
+  color: #0a3871;
+}
+#text:focus {
+  border: none;
+}
+body {
+  background-color: #e5e5e5;
+  margin: 0px;
+  padding: 10%;
+}
+#noEncontrado {
+  font-size: 24px;
+  color: #0a3871;
+  text-align: center;
+}
+#msgEncriptar {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* Gray/gray-400 */
+
+  color: #495057;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+#btnActivo {
+  width: 328px;
+  height: 67px;
+
+  /* Dark blue/dark-blue-300 */
+
+  background: #0a3871;
+  border-radius: 24px;
+
+  /* Inside auto layout */
+
+
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+
+  /* White */
+
+  color: #ffffff;
+}
+
+#btnDesactivado{
+
+width: 328px;
+height: 67px;
+
+/* Light gray */
+
+background: #D8DFE8;
+/* Dark blue/dark-blue-300 */
+
+border: 1px solid #0A3871;
+border-radius: 24px;
+
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+/* Dark blue/dark-blue-300 */
+
+color: #0A3871;
+}
+#btnCopiar{
+width: 336px;
+height: 67px;
+left: 1032px;
+top: 885px;
+
+/* Dark blue/dark-blue-300 */
+
+border: 1px solid #0A3871;
+color: #0A3871;
+background: #FFFFFF;
+border-radius: 24px;
+
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+}
+
+#textSalida {
+  color: #0a3871;
+  font-family: "Inter";
+  font-size: 32px;
+  border-style: none;
+  margin: 2px;
+}
